@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>IDN-cart</title>
+    <!-- font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+  <body>
+    <!--header-->
+    <header class="shadow-sm py-4 bg-white">
+      <div class="container flex items-center justify-between">
+        <!-- logo-->
+        <a href="">
+          <img src="public/images/logo.svg" alt="" />
+        </a>
+
+        <!-- searchbar-->
+        <div class="w-full flex max-w-xl relative">
+          <span class="absolute left-4 top-3 text-xl text-gray-600">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input class="border border-red-500 border-r-0 py-3 pl-12 pr-3 rounded-l-md focus:outline-none" type="text" placeholder="search">
+         <button class="border border-red-600 bg-red-600 px-8 text-white rounded-r-md hover:bg-transparent hover:text-red-600 transition">
+            search
+         </button>
+        </div>
+
+        <!-- icon-->
+         <div class="flex space-x-4">
+            <a href="" class="text-gray-700 text-center hover:text-red-700 transition relative">
+          <div class="text-2xl">
+            <i class="fa-solid fa-child"></i>
+          </div>
+          <div class="text-xs leading-3">whishlist</div>
+            <span class="absolute bg-red-700 rounded-full text-white flex items-center justify-center w-5 h-5 right-0 -top-1">8</span>
+            </a>
+            <a href="" class="text-gray-700 text-center hover:text-red-700 transition relative">
+              <div class="text-2xl">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+              </div>
+              <div class="text-xs leading-3">cart</div>
+              <span class="absolute bg-red-700 rounded-full text-white flex items-center justify-center w-5 h-5 left-5 -top-1">8</span>
+            </a>
+             <a href="" class="text-gray-700 text-center hover:text-red-700 transition relative">
+                <div class="text-2xl">
+                  <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="text-xs leading-3">Account</div>
+             </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end-->
+    
+    <!-- navbar-->
+    <nav class="bg-blue-800">
+        <div class="container flex">
+          <!-- all categories-->
+          <div class="bg-pink-400 py-4 px-8 flex items-center relative group">
+            <span class="text-white"><i class="fa-solid fa-bars"></i>
+            </span>
+            <span class="capitalize ml-2 text-white">
+              all categories
+            </span>
+            <!-- dropdown-->
+            <div class="bg-white py-3 absolute w-full top-full left-0 shadow devide-y divide-gray-200 opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition ">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/sofa.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">sofa</span>
+             </a>
+             <a href="" class="flex px-6 py-3 hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/office.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">office</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/bed-2.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">bed</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/phone.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">phone</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/terrace.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">terrace</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/sofa.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">sofa</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/service-hours.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">service-hours</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/restaurant.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">restoraunt</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/outdoor-cafe.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">outdoor-cafe</span>
+             </a>
+             <a href="" class="flex px-6 py-3 items-center hover:bg-gray-200 transition">
+              <img class="w-5 h-5 object-contain" src="public/images/icons/delivery-van.svg" alt="">
+              <span class="text-gray-800 ml-6 text-sm capitalize">delivery-van</span>
+             </a>
+            </div>
+          </div>
+          <!-- all categories end-->
+          <!-- navlink-->
+          <div class="flex items-center justify-between flex-grow pl-12">
+             <div class="flex space-x-6">
+                <a class=" text-gray-400 hover:text-white " href="">home</a>
+                <a class=" text-gray-400 hover:text-white " href="">shop</a>
+                <a class=" text-gray-400 hover:text-white " href="">about us</a>
+                <a class=" text-gray-400 hover:text-white " href="">contact us</a>
+             </div>
+             <div class="space-x-9">
+                <a class=" text-gray-400 hover:text-white " href="">login</a>
+                <a class=" text-gray-400 hover:text-white " href="">register</a>
+             </div>
+          </div>
+          <!-- navlink end-->
+        </div>
+    </nav>
+    <!-- navbar end-->
+     
+    <!-- Link js-->
+     <script src="src/script.js"></script>
+  </body>
+</html>
