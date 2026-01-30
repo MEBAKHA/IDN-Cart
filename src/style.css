@@ -12,6 +12,8 @@
     /*font*/
     --font-poppins: "Poppins", sans-serif;
     --font-roboto: "Roboto", sans-serif;
+
+    --color-primary: #fd3d57;
 }
 
 @layer utilities{
@@ -20,6 +22,7 @@
         padding-left: 5rem;
         padding-right: 5rem ;
     }
+   
 }
 
 body{
@@ -31,5 +34,9 @@ body{
     }
     .color-selector input:checked + label{
         @apply ring-2 ring-red-600
+    }
+    
+    .input-box{
+        @apply block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:border-primary focus:ring-0 placeholder:text-gray-300;
     }
  }
