@@ -25,3 +25,11 @@
 body{
  font-family: var(--font-poppins);
 }
+ @layer components{
+    .size-selector input:checked + label{
+        @apply bg-red-700 text-white
+    }
+    .color-selector input:checked + label{
+        @apply ring-2 ring-red-600
+    }
+ }
