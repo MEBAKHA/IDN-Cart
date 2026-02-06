@@ -12,9 +12,7 @@ export default defineConfig({
         login: 'login.html',
         register: 'register.html',
         shop: 'shop.html',
-        checkout: 'checkout.html',
         whislist: 'whistlist.html',
-        account: 'account.html',
         view: 'view.html'
 
       }
